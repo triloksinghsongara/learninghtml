@@ -6,34 +6,45 @@
     <title>Document</title>
 </head>
 <body>
-    <label for="">Name</label>
-    <input type="text" placeholder="enter your name "> <br><br>
+    <form action="one.html">
+    <label for="name">Name</label>
+    <input type="text" placeholder="enter your name " required id="name"> <br><br>
 
-    <label for="">contact</label>
-    <input type="number" placeholder="enter your contact no"> <br> <br>
+    <label for="contact">contact</label>
+    <input type="number" placeholder="enter your contact no" required id="contact"> <br> <br>
 
 
     <label for="">address</label>
     <input type="text" placeholder="enter your address"> <br><br>
 
     <label for="">city</label>
-    <input type="text" placeholder="enter your city name">  <br><br>
+    <select name="" id="">
+        <option value="">select</option>
+        <option value="">Indore</option>
+        <option value="">Bhopal</option>
+        <option value="">jabalpur</option>
+    </select><br><br>
 
 
     <label for="">gender</label><br>
-    <input type="radio" name="gender"> Female <br>
-    <input type="radio" name="gender"> Male <br>
-    <input type="radio" name="gender"> Others<br><br><br>
+    <input type="radio" name="gender" required> Female <br>
+    <input type="radio" name="gender" required> Male <br>
+    <input type="radio" name="gender" required> Others<br><br><br>
 
     <label for="">courses</label> <br>
     <input type="checkbox">HTML <BR>
     <input type="checkbox">c++ <BR>
     <input type="checkbox">java <BR></BR>
     <label for="">password</label>
-    <input type="password"><br><br>
+    <input type="password" required><br><br>
     <input type="file"><br><br>
-    <input type="submit">
 
+    <label for="">message</label>
+    <textarea name="" id=""></textarea><br><br>
+    <label for="">DOB</label>
+    <input type="date"><br><br>
+    <input type="submit">
+</form>
     
 </body>
 </html>
