@@ -1,0 +1,19 @@
+body{
+    background-color: yellow;
+}
+.heading1{
+    background-color: lightblue;
+
+}
+.heading2{
+    color: red;
+    font-size: 100px;
+    font-style: italic;
+text-decoration: underline;
+text-decoration-color: black;
+text-decoration-style: double;
+word-spacing: 30px;
+letter-spacing: 10px;
+text-shadow: -10px -10px 20px black;
+
+}
